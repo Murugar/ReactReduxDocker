@@ -1,0 +1,44 @@
+{
+  "name": "ReactReduxDocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --mode development --progress --display-modules --display-reasons --colors",
+    "build":   "webpack --mode production",
+    "start":   "webpack-dev-server --mode development --host 0.0.0.0 --hot --devtool source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/README.md",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^0.21.0",
+    "html-loader": "^0.5.5",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.6",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "uuid": "^3.1.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
